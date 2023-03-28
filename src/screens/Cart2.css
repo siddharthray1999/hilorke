@@ -1,0 +1,116 @@
+.inputText{
+border: none;
+margin-top: 5px;
+margin-right:5px;
+}
+.inputCheck{
+    width:1rem;
+    margin-right:5px;
+}
+.modal-grid {
+    border: 1px solid #FF8D22;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    padding: 10px 0;
+  font-weight: 300;
+  }
+.modal-grid2 {
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+    padding: 10px 0;
+    font-weight: 300;
+  
+  }
+.Add-align{
+    background: #FF8D22;
+    width:50%
+}
+
+  .modal-grid textarea{
+    margin: 1rem ;
+    border: none;
+  }
+
+.changeField{
+    background:#F2F2F2;
+    /* width: 50%; */
+}
+.changeButton{
+    border-radius: 10px;
+    background:#FF9F22;
+    width:25%;
+    color: white;
+    border: none;
+    
+}
+.Button-align{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+.checkoutButton{
+    margin-top:2rem;
+    background:#FF9F22;
+    width:100% !important;
+    border-radius: 6px;
+    height: 50px;
+    color: white;
+    border: none;
+}
+.AddButton{ 
+    margin: 0 !important;
+    background:#FF9F22;
+    width:100% !important;
+    border-radius: 30px;
+    height: 45px;
+    color: white;
+    border: none;
+}
+
+.alignE{
+text-align: end;
+
+}
+.alignC{
+text-align: start;
+
+}
+
+.w-80{
+    width:80%;
+    margin: auto;
+}
+
+input{
+    width: 100%;
+}
+
+.alignS {
+    margin-bottom: 15px;
+}
+.alignS p {
+    margin-bottom: 0 !important;
+}
+
+.current-item {
+    border: 4px solid #FF8D22;
+    background-color: #FF8D22;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+.saved-item {
+    border: 4px solid #FF8D22;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.color-cart-gray {
+    color: gray;
+}

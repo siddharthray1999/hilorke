@@ -1,0 +1,120 @@
+#MidChead {
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  opacity: 60%;
+}
+#About {
+  font-weight: 300;
+  padding: 0% 2% 0% 0;
+}
+
+.middle-section {
+  width: 98vw;
+  padding: 20px 15px;
+  margin-top: 30px;
+  margin: 0 auto;
+}
+
+.report-item {
+  color: red;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.location-input-container {
+  position: relative;
+  margin-top: 2rem;
+}
+
+.pin-inputBox {
+  padding: 1rem;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Poppins";
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  /* margin-top: 1rem; */
+  outline: none;
+  border: 1px solid #e7e6e6;
+  background: #f2f2f2;
+}
+
+.check-btn {
+  width: 130px;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #ff8d22;
+  color: white;
+  font-weight: 500;
+  position: absolute;
+  right: 0.3rem;
+  top: 0.3rem;
+}
+
+.container-about {
+
+}
+
+.container-pincode {
+  padding: 0 0 0 40px;
+}
+.changeButton {
+  background-color: #ff8d22;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+  .MSPmainContainer2 {
+    /* padding: 25px 25px 10px 20px; */
+  }
+  .my-arrow  {
+    display: none !important;
+  }
+  .MSPCont2 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .middle-section {
+    width: 100%;
+    padding: 20px 15px;
+    margin: 0; 
+    flex-direction: column-reverse;
+  }
+
+  .container-about {
+    width: 100%;
+  }
+
+  .container-pincode {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .pin-inputBox {
+    height: 55px;
+  }
+
+  .check-btn {
+    margin: 7px;
+    font-size: 15px;
+    padding: 5px 9px;
+    width: 110px;
+  }
+
+  .report-item {
+    margin-top: 20px;
+  }
+}
+
+
+
+
+

@@ -1,0 +1,29 @@
+.inputBoxlast {
+  margin-bottom: 20px !important;
+}
+
+.otpscreenTopCon {
+  width: 100%;
+}
+
+.already-button {
+  cursor: pointer;
+  border: none;
+  background-color: white;
+  color: #ff8d22;
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.isWrong {
+  border-color: red !important;
+  color: red;
+}
+
+@media screen and (max-width: 768px) {
+    .already-button {
+        font-size: 15px;
+    }
+
+    
+}

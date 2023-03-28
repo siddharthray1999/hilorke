@@ -1,0 +1,286 @@
+.LoginMainContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.LoginContainer1 {
+  border: 1px solid gray;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  height: fit-content;
+  padding: 20px 0;
+
+}
+#loginDiv3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.loginButton {
+  background-color: #ff8d2214;
+  border: 1px solid #ff8d22 !important;
+  color: #ff8d22;
+
+  height: 45px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition-duration: 0.4s;
+}
+.SignUpButton {
+  /* background-color: #ff8d22;
+  color: white;
+  border: 0px;
+  height: 40px;
+  width: 190px;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1%; */
+  background-color: #ff8d22;
+  color: white;
+  border: 0px;
+  height: 45px;
+  width: 200px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  margin-bottom: 10px;
+}
+.loginButton:active {
+  background-color: #ff8d22;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+.SignUpButton:active {
+  background-color: #ff8d22;
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(4px);
+}
+#loginDiv1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  /* padding-bottom: 5%; */
+}
+#loginDiv2 {
+  font-size: 16px;
+  opacity: 50%;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 10px;
+  /* padding-bottom: 10%; */
+}
+.inputContainerlogin {
+  margin-bottom: 15px;
+  position: relative;
+  height: 50px;
+}
+.inputBox {
+  height: 50px;
+  width: 100%;
+  background-color: #ff8d2214 !important;
+  padding-left: 10px;
+}
+.inputBox::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #707070;
+  opacity: 1; /* Firefox */
+  font-weight: 500;
+}
+
+#forgotPas {
+  text-align: right;
+  width: 100%;
+  color: #ff8d22;
+  padding-bottom: 7%;
+  font-weight: bold;
+  padding-top: 10px;
+}
+.password-input {
+  position: relative;
+}
+.eye-icon {
+  position: absolute;
+  top: 2rem;
+  right: 1rem;
+  cursor: pointer;
+}
+.user-btn {
+  min-width: 300px;
+}
+.vendor-btn {
+  background-color: white;
+  color: #ff8d22;
+  border: 1px solid #ff8d22;
+  min-width: 300px;
+}
+.or-container {
+  position: relative;
+  margin: 0.5rem 0;
+}
+.or {
+  color: #707070;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.or::before {
+  content: "-----";
+  position: absolute;
+  left: -3.5rem;
+  top: 0rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0px;
+  color: #121212;
+  opacity: 0.5;
+}
+
+.or::after {
+  content: "-----";
+  position: absolute;
+  right: -3.5rem;
+  top: 0rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 0px;
+  color: #121212;
+  opacity: 0.5;
+}
+.text-style {
+  color: #707070;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.google {
+  cursor: pointer;
+  /* width: 100px; */
+  /* background-color: #ff8d22; */
+  padding: 8px 30px;
+  color: white;
+}
+
+.google img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.loginbuttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.form-container2 {
+  width: 100%;
+  padding: 0 80px;
+}
+
+
+
+
+.forgotform-input-div {
+  width: 100%;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.google-login-cont {
+  width: 300px;
+  color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.google-logo-container {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.google-logo-container img {
+  width: 100%;
+  height: 100%;
+}
+.google-logo-animated-container {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.google-logo-container img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .LoginContainer1 {
+    border: none;
+    width: 90%;
+  }
+  #loginDiv1 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  #loginDiv2 {
+    font-size: 14px;
+  }
+
+  .inputBox {
+    height: 40px;
+  }
+  .inputBox::placeholder {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  #forgotPas {
+    font-size: 12px;
+  }
+
+  .loginButton {
+    height: 35px;
+    width: 170px;
+    font-size: 14px;
+  }
+
+  .SignUpButton {
+    height: 35px;
+    width: 170px;
+    font-size: 14px;
+  }
+
+  .google {
+    font-size: 14px;
+    height: 40px;
+  }
+
+  .account-label {
+    font-size: 15px;
+  }
+
+  .form-container2 {
+    width: 100%;
+    padding: 0 20px;
+  }
+}

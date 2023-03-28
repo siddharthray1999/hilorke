@@ -1,0 +1,120 @@
+.MSPCont2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  flex-direction: column;
+}
+.MSPcontiner1 {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1%;
+  width: 50%;
+  text-align: left;
+}
+.MSPmainContainer {
+  padding-bottom: 30px;
+  padding-top: 1%;
+}
+.MSPmainContainer3 {
+  padding-bottom: 1%;
+}
+.row-container {
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+.row-container::-webkit-scrollbar {
+  display: none;
+}
+.arrow-scroll-cont {
+  gap: 3rem;
+  margin-bottom: 1rem;
+}
+.scroll-arrow {
+  width: 40px;
+  height: 40px;
+  color: #ff8d22;
+  border: 1px solid #ff8d22;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.prod-cont {
+  margin: 0 1rem;
+}
+
+
+
+
+.category-container2 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.scroll-action-container {
+  height: 60px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  padding-right: 20px;
+}
+
+.scroll-action-container .scroll-action {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.scroll-action-container .scroll-action .scroll-action-left {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #ff8d22;
+  background-color: #ff8d2238;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff8d22;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+
+.scroll-action-container .scroll-action .scroll-action-right {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ff8d2238;
+  border: 1px solid #ff8d22;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ff8d22;
+  cursor: pointer;
+}
+
+.scroll-action-container .scroll-action .scroll-action-left-disable {
+  opacity: 0.4;
+}
+
+.scroll-action-container .scroll-action .scroll-action-right1-disable {
+  opacity: 0.4;
+}
+
+@media screen and (max-width: 768px) {
+  .scroll-action-container {
+    display: none;
+  }
+  .MSPCont2 {
+    padding: 0;
+  }
+}

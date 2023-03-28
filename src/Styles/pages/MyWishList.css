@@ -1,0 +1,65 @@
+#OHhead {
+  font-size: 22px;
+  font-weight: bold;
+}
+#OHtime {
+  font-size: 18px;
+  font-weight: 400;
+}
+#OHcont1 {
+  display: flex;
+  justify-content: center;
+}
+.OHCont2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 4% 0% 4% 0%;
+}
+.wishlist-items-cont {
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+  padding: 2rem;
+  min-height: 90vh;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.wishlist-heading-mobile {
+  display: none;
+}
+
+@media all and (max-width: 768px){
+  .wishlist-items-cont {
+    justify-content: center;
+  }
+  .wishlist-heading-mobile {
+    display: block;
+    text-align: center;
+    font-weight: 600;
+      font-size: 2rem;
+      text-transform: uppercase;
+  }
+
+.wishlist-container {
+  margin-top: 15px;
+}
+
+.wishlist-msg {
+  /* height: 80vh; */
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center !important;
+  margin: 0 auto;
+  width: 100%;
+
+}
+.wishlist-msg button {
+  margin: 0 auto;
+}
+.wishlist-msg p {
+  width: 100%;
+}
+}

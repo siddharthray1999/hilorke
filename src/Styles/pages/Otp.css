@@ -1,0 +1,68 @@
+
+#OtpDiv1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+#loginDiv1 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  /* padding-bottom: 5%; */
+}
+#OtpDiv2 {
+  font-size: 16px;
+  opacity: 50%;
+  font-weight: 500;
+  text-align: center;
+  /* padding-bottom: 10%; */
+}
+.OtpinputBox {
+  background: #fcfcfc;
+  border: 1px solid #ff8d22;
+  color: #ff8d22;
+  text-align: center;
+  margin: 0 0.5rem;
+  width: 45px;
+  height: 44px;
+  border-radius: 15px;
+  padding: 0;
+}
+#OtpDiv4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#Resend {
+  text-align: right;
+  width: 100%;
+  color: #ff8d22;
+  padding-bottom: 7%;
+  font-weight: bold;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 680px) and (max-height: 515px) {
+  #OtpDiv1 {
+    font-size: 18px;
+  }
+  #OtpDiv2 {
+    font-size: 14px;
+  }
+  #OtpDiv4 {
+    margin-top: 10px;
+  }
+  .OtpinputBox {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+  }
+  #Resend {
+    font-size: 14px;
+  }
+}

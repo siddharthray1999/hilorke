@@ -1,0 +1,9 @@
+.card-list {
+    width: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+.card-list::-webkit-scrollbar {
+    display: none;
+}

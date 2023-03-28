@@ -1,0 +1,53 @@
+.forgotContainer1 {
+  border: 1px solid gray;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: center;
+  width: 50%;
+  height: fit-content;
+  padding: 30px;
+}
+.forgottopcontainer {
+  margin-bottom: 30px;
+}
+#loginforgotDiv2 {
+  width: 100%;
+  text-align: center;
+}
+#loginforgotDiv1 {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+}
+.inputBoxforgot {
+  margin-bottom: 30px;
+}
+
+.forgotbuttonContainer {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .forgotContainer1 {
+    width: 100%;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .forgottopcontainer {
+    margin-bottom: 20px;
+  }
+  #loginforgotDiv1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  #loginforgotDiv2 {
+    font-size: 14px;
+  }
+}

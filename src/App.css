@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+.error {
+  color: red;
+}
+.color-green {
+  color: rgb(0, 216, 0);
+}
+.f-500 {
+  font-weight: 500;
+}
+.pointer {
+  cursor: pointer;
+}
+
+.flex {
+  display: flex;
+}
+
+.dflex-column {
+  flex-direction: column;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+input {
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid orange;
+  height: 40px;
+  width: 100%;
+}

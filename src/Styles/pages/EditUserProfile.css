@@ -1,0 +1,115 @@
+input,
+.selector {
+  border-radius: 6px;
+  outline: none;
+  border: 1px solid #ff8d22;
+  height: 40px;
+  padding-left: 10px;
+}
+
+.addressContainer p {
+  margin: 0;
+}
+
+/* ::-webkit-scrollbar {
+  visibility: hidden;
+} */
+
+.profileImgContainer {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profileImgContainer img {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.profileInputCont {
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 1;
+  width: 42px;
+  height: 40px;
+  background-color: orange;
+  border-radius: 20px;
+}
+
+.profileInputCont label {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+.profileInputCont label .profileiconsel {
+  width: 65%;
+  height: 100%;
+  color: white;
+  cursor: pointer;
+}
+.profileInputCont input {
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
+}
+.align-form {
+  flex-direction: row;
+  justify-content: space-between;
+  /* padding: 0 20px */
+}
+.align-inputs {
+  width: 48%;
+}
+.editButtonProfile {
+  justify-content: flex-start;
+}
+
+.align-modal {
+  height: fit-content;
+}
+
+.edit-top {
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1920px) {
+  .profileInputCont {
+    top: 11.5rem;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .profileInputCont {
+    top: 10rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .align-modal {
+    width: 90%;
+  }
+  .align-form {
+    flex-direction: column;
+    padding: 0px;
+  }
+  .align-inputs {
+    width: 100%;
+  }
+  .editButtonProfile {
+    justify-content: center;
+  }
+
+  .profileInputCont {
+    top: 8.5rem;
+  }
+}

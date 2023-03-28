@@ -1,0 +1,37 @@
+.shipping--container {
+    width: 100%;
+    min-height: 80vh;
+    padding: 0 40px;
+    margin-bottom: 100px;
+}
+
+.shipping__imgContainer {
+    width: 50px;
+    height: 50px;
+}
+
+.shipping--container__heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.shipping__imgContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+.shipping--container p {
+    line-height: 2;
+    color: gray;
+}
+
+.shipping--container span {
+    font-weight: bold;
+
+}
+
+.shipping--container h5 {
+    margin-top: 40px;
+}

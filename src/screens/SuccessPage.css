@@ -1,0 +1,58 @@
+.product-success-cont {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product-success-second {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-success-first {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.success-img-container {
+    width: 100%;
+    height: auto;
+}
+.successImg{
+    width:100%;
+    height: 30vh;
+    object-fit: contain;
+}
+.alignButton{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+.AddButton1{
+   
+    background:#FF9F22;
+    width:50%;
+    margin-bottom: 2rem;
+   border-radius: 30px;
+    height: 45px;
+    color: white;
+    border: none;
+    margin: 0 auto;
+}
+
+
+
+@media screen and (max-width: 768px) and (max-height: 690px) {
+    .AddButton1{
+        width:60%
+    }
+    .fontalignSuccess{
+        font-size: 14px;
+    }
+   
+}

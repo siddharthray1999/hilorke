@@ -1,0 +1,67 @@
+.image-carsol {
+  display: flex;
+  width: 90vw;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.image-carsol::-webkit-scrollbar {
+  display: none;
+}
+
+.message-img {
+  min-width: 140px;
+  height: 140px;
+  margin: 20px 25px;
+}
+
+.message-img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.scroll-arrow-img {
+  width: 40px;
+  height: 40px;
+  margin-top: 70px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: 1px solid gray;
+  color: gray;
+  background-color: white;
+  z-index: 0;
+}
+
+.comment-section {
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 1480px) {
+  .message-img {
+    min-width: 80px;
+    height: 80px;
+    margin: 10px 20px;
+  }
+
+  .scroll-arrow-img {
+    height: 30px;
+    width: 30px;
+    margin: auto 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .review-img-container {
+    width: 95%;
+  }
+
+  .message-img {
+    min-width: 60px;
+    height: 60px;
+    margin: 10px 15px;
+  }
+}
